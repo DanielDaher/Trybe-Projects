@@ -1,0 +1,32 @@
+.Login-Page {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.login-form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  height: 30px;
+  text-align: center;
+  width: 400px;
+}
+
+.Login-Button {
+  background-color: slateblue;
+  color: white;
+  font-size: large;
+  height: 30px;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.Login-Button:disabled {
+  background-color: thistle;
+}
