@@ -1,0 +1,32 @@
+.details-form {
+  align-items: center;
+  border: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 70%;
+}
+
+.details-input {
+  height: 5vh;
+}
+
+.send-button {
+  background-color: #0b8355;
+  border-radius: 10px;
+  color: rgb(255, 253, 253);
+  font-weight: 700;
+  height: 5vh;
+  margin: 3%;
+  width: 20%;
+}
+
+.send-button:disabled {
+  background-color: grey;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}

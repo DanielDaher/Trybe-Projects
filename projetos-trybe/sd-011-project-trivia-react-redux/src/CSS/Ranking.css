@@ -1,0 +1,138 @@
+
+.button {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+h2 {
+  border: 10px;
+  margin-bottom: 12px;
+  margin-top: 75px;
+  display: flex;
+  flex-direction: column;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.container {
+  align-items: flex-end;
+  justify-content: center;
+  display: flex;
+  width: 200px;
+  gap: 6px;
+}
+
+/* .player-container * {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+  padding: 5px 0 5px 0;
+  width: 200px;
+} */
+
+.player-container0 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  order: 1;
+  padding: 5px 0;
+}
+
+.player-container1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  order: 0;
+  padding: 5px 0;
+}
+
+.player-container2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  order: 2;
+  padding: 5px 0;
+}
+
+.podium0 {
+  align-items: center;
+  /* background-image: linear-gradient(to right, red , yellow); */
+  background-color: gold;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 150px;
+  width: 50px;
+}
+
+.podium1 {
+  align-items: center;
+  /* background-image: linear-gradient(to right, red , silver); */
+  background-color: silver;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 120px;
+  width: 50px;
+}
+
+.podium2 {
+  align-items: center;
+  /* background-image: linear-gradient(to right, red , #cd7f32); */
+  background-color: #cd7f32;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 90px;
+  width: 50px;
+}
+
+.profile {
+  height: 50px;
+  /* margin-bottom: 5px; */
+}
+
+.profile img{
+  height: 50px;
+  width: 50px;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  width: 30px;
+}
+
+a button {
+  padding: 6px 12px;
+  border-radius: 3px;
+  border: 1px solid black;
+  font-size: 1.2rem;
+  color: white;
+  background-color: slateblue;
+  cursor: pointer;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+  transition: 100ms;
+}
+
+a button:hover {
+  background-color: mediumslateblue;
+}
+
+a button:active {
+  transform: scale(0.98);
+  box-shadow: 0 0 0;
+}

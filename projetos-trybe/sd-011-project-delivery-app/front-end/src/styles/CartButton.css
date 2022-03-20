@@ -1,0 +1,13 @@
+.cart-button {
+  background-color: rgba(2, 0, 100);
+  border-radius: 5%;
+  bottom: 5vw;
+  color: white;
+  position: fixed;
+  right: 10vw;
+  width: 410px;
+}
+
+.cart-button:disabled {
+  background-color: rgba(2, 0, 100, 0.459);
+}

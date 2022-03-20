@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body {
+  margin: 0;
+  height: 100vh;
+  background-color: slategray;
+  font-family: 'Roboto', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* LOGIN */
+.center {
+  background-color: rgb(39, 39, 39);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+}
+
+.lg {
+  padding-top: 80px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* IMAGENS */
+
+.recipesImg {
+  width: 100%;
+  padding: 10px;
+}
+
+.cardRecipesContainer {
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px 1px rgba(128, 128, 128, 0.411);
+  display: flex;
+  margin: 10px;
+  text-align: center;
+  flex-direction: column;
+  width: 90%;
+}
+
+/* HEADER */
+
+.header-container h1 {
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.filter-button {
+  box-shadow: 0 8px 10px 0 rgba(128, 131, 175, 0.37);
+  margin: 2px;
+  width: 47%;
+}
+
+#initRecipe {
+  background-color: orange;
+  background: orange;
+  bottom: 0px;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+}
+
+.button-container {
+  display: flex;
+  margin: 5px 0px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.header-container {
+  align-items: center;
+  backdrop-filter: blur(4px);
+  background: rgba(255, 0, 0, 0.103);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  bottom: 0;
+  box-shadow: 0 8px 32px 0 rgba(128, 131, 175, 0.37);
+  color: rgb(0, 0, 0);
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 10%;
+  top: 0px;
+  justify-content: space-between;
+}
+
+.profile {
+  width: 30px;
+  margin-left: 5px;
+}
+
+.searchLupa {
+  width: 30px;
+}
+
+.searchButton {
+  background: none;
+  border: none;
+}
+
+.labelForFilter {
+  display: flex;
+  justify-content: center;
+}
+
+/* COMIDAS e BEBIDAS */
+
+.allContainer {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.allContainer a {
+  align-items: center;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+}
+
+.allContainer a h4 {
+  text-decoration: none;
+  color: black;
+}
+
+/* Detail Container */
+
+.header-detail-recipe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detailContainer h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.detailContainer a img {
+  width: 20px;
+}
+
+.containerForTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerForTitle p {
+  margin: 0;
+}
+
+.detailContainer {
+  background-color: rgb(46, 46, 46);
+  color: rgb(223, 223, 223);
+  display: flex;
+  flex-direction: column;
+}
+
+.hearth img {
+  margin-right: 5px;
+  width: 20px;
+}
+
+.instructions {
+  background: rgb(54, 54, 54);
+  padding: 20px;
+  text-align: center;
+  list-style: none;
+}
+
+.instructions-input {
+  background: rgb(54, 54, 54);
+  padding: 20px;
+  text-align: center;
+  list-style: none;
+  width: 100%;
+  text-align: left;
+}
+
+.instructions-input-checked {
+  background: rgb(54, 54, 54);
+  padding: 20px;
+  text-align: center;
+  list-style: none;
+  text-decoration: line-through;
+  width: 100%;
+  text-align: left;
+}
+
+#seraquevai {
+  border: solid white 0.5px;
+  transform: scale(0.4);
+  margin: 1px;
+  width: 50vw;
+}
+
+.detailContainer button {
+  background: none;
+  border: none;
+}
+
+.detailContainer {
+  padding-bottom: 20px;
+}
+
+.detailImg {
+  width: 100%;
+}
+
+.submitButton {
+  width: 95%;
+}
+
+/* react player */
+
+.wrapper {
+  position: relative;
+  padding-top: 56.25% /* Player ratio: 100 / (1280 / 720) */
+}
+
+.player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+
+/* profile container */
+
+.profile-container {
+  background: url('https://i.pinimg.com/736x/1f/a0/ef/1fa0efe44e31cba3d28db304ae6c164c.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.homeImg {
+  margin-left: 5px;
+}
+
+.profile-header {
+  align-items: center;
+  backdrop-filter: blur(4px);
+  background: rgba(255, 0, 0, 0.103);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  bottom: 0;
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  color: rgb(44, 44, 44);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 20px;
+  width: 100%;
+  height: 18%;
+}
+
+.container-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 25px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-link a {
+  background: rgba(255, 208, 0, 0.424);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  bottom: 0;
+  border-radius: 5px;
+  box-shadow: 0 8px 12px 0 rgba(31, 38, 135, 0.37);
+  color: rgb(44, 44, 44);
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 80%;
+  font-size: 30px;
+}
+
+.profile-picture {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+  height: 20%;
+}
+
+.profile-picture a {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 20px;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+.profile-picture a img {
+  display: flex;
+  width: 23%;
+  height: 100%;
+}
+
+.title-header {
+  margin-right: 20px;
+}
+
+.profile-header h2 {
+  font-size: 100%;
+  position: absolute;
+  bottom: 0px;
+}
+
+#hearth {
+  outline: none;
+  border: none;
+}
+
+.background {
+  background: url('https://i.pinimg.com/736x/1f/a0/ef/1fa0efe44e31cba3d28db304ae6c164c.jpg');
+}
+
+/* tela de explorar */
+.explore-container {
+  padding-top: 80px;
+}

@@ -1,0 +1,30 @@
+.navbar {
+  background-color: rgb(124, 124, 243);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  width: 100vw;
+}
+
+.userName {
+  color: white;
+}
+
+.navbar-links {
+  background-color: rgb(246, 178, 7);
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+}
+
+.navbar-logout {
+  background-color: rgb(22, 1, 161);
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+}
+
+.navbar-links:hover, .navbar-logout:hover {
+  text-decoration: underline;
+}

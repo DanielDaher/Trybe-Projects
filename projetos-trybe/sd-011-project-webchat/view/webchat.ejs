@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>webchat</title>
+    <link rel="stylesheet" href="./css/webchat.css">
+  </head>
+  <body>
+    <h2 data-testid="online-user" id="nickname"></h2>
+    <form action="" class="nicknameForm">
+      <input data-testid="nickname-box" type="text" id="nicknameInput"/>
+      <button data-testid="nickname-button">Trocar apelido</button>
+    </form>
+    <h4>Usuários online</h4>
+    <ul id="users-online"></ul>
+    <ul id="messages">
+      <% messages.forEach((message) => { %>
+        <li data-testid="message">
+          <%= message.timestamp %> - <%= message.nickname %>: <%= message.message %>
+        </li>
+      <% }) %>
+    </ul>
+    <form action="" id="messageForm">
+      <input id="messageInput" data-testid="message-box" autocomplete="off" />
+      <button data-testid="send-button">Send</button>
+    </form>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src='./js/webchat.js'></script>
+  </body>
+</html>

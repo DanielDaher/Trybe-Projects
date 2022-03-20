@@ -1,0 +1,34 @@
+.main-content-adm {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content-form-adm {
+  display: flex;
+}
+
+.content-form {
+  display: flex;
+  margin: 40px 0;
+}
+
+.navbarAdm {
+  display: flex;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.main-navbar {
+  background-color: gray;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.user-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}

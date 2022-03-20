@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home__container {
+  align-items: center;
+  box-shadow: 0 0 4px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  margin: 100px auto;
+  padding: 70px 40px;
+  width: max-content;
+}
+
+.home__container h1 {
+  margin-bottom: 16px;
+}
+
+.trivia__forms {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.trivia__forms input {
+  padding: 8px 14px;
+  font-size: 1rem;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, .6);
+}
+
+.trivia__forms button {
+  align-self: stretch;
+  font-size: 1.4rem;
+  padding: 4px 12px;
+  box-shadow: 0 1px 3px black;
+  background-color: slateblue;
+  border: 1px solid black;
+  cursor: pointer;
+  color: white;
+}
+
+.trivia__forms button:not(:disabled):hover {
+  background: mediumslateblue;
+}
+
+.trivia__forms a {
+  color: white;
+  font-weight: 300;
+}
+
+.logo {
+  transition: 0.5s;
+  width: 250px;
+  margin-bottom: 15px;
+}
+
+.logo:hover {
+  transition: 0.5s;
+  transform: scale(1.2) 
+}
+
+.link {
+  display: block;
+  text-decoration: none;
+  color: black;
+  width: max-content;
+  height: max-content;
+}
